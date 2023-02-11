@@ -1,5 +1,9 @@
 package com.badas.sms.service;
 
-public interface StudentService {
+import java.util.List;
 
+import com.badas.sms.entity.Student;
+
+public interface StudentService {
+	List<Student> getAllStudents();
 }
